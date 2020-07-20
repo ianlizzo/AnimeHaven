@@ -12,7 +12,7 @@ import {
 import AppContainer from "./src/Navigation";
 
 export default () => (
-  <ApplicationProvider {...eva} theme={eva.light}>
+  <ApplicationProvider {...eva} theme={eva.dark}>
     <AppContainer />
   </ApplicationProvider>
 );
